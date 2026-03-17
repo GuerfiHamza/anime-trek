@@ -1,0 +1,39 @@
+current directory: /home/neo/code/GuerfiHamza/anime-trek/vendor/bundle/ruby/3.1.0/gems/byebug-12.0.0/ext/byebug
+/home/neo/.rbenv/versions/3.1.7/bin/ruby -I /home/neo/.rbenv/versions/3.1.7/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /home/neo/code/GuerfiHamza/anime-trek/vendor/bundle/ruby/3.1.0/gems/byebug-12.0.0/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20260318-54895-275kjc sitelibdir\=./.gem.20260318-54895-275kjc clean
+
+current directory: /home/neo/code/GuerfiHamza/anime-trek/vendor/bundle/ruby/3.1.0/gems/byebug-12.0.0/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20260318-54895-275kjc sitelibdir\=./.gem.20260318-54895-275kjc
+compiling breakpoint.c
+compiling byebug.c
+byebug.c: In function ‘check_started’:
+byebug.c:69:1: warning: old-style function definition [-Wold-style-definition]
+   69 | check_started()
+      | ^~~~~~~~~~~~~
+byebug.c: In function ‘Init_byebug’:
+byebug.c:871:1: warning: old-style function definition [-Wold-style-definition]
+  871 | Init_byebug()
+      | ^~~~~~~~~~~
+byebug.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling context.c
+compiling locker.c
+locker.c: In function ‘byebug_pop_from_locked’:
+locker.c:53:1: warning: old-style function definition [-Wold-style-definition]
+   53 | byebug_pop_from_locked()
+      | ^~~~~~~~~~~~~~~~~~~~~~
+locker.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/neo/code/GuerfiHamza/anime-trek/vendor/bundle/ruby/3.1.0/gems/byebug-12.0.0/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20260318-54895-275kjc sitelibdir\=./.gem.20260318-54895-275kjc install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20260318-54895-275kjc/byebug
